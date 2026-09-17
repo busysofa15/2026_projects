@@ -1,0 +1,1 @@
+this simulator of valley of stability aka binding energy per nucleon is modeled after the liquid drop model and uses semi emperical mass formula and this simulator is applicable for elements with over 10 to 20 protons due to the very limitations of the model/formula and for perfomance and speed this is done using numpy and uses matplotlib for the graph 

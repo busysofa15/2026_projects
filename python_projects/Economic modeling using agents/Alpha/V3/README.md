@@ -1,0 +1,1 @@
+alpha v3 has a lot of big changes its completely different from v1 and v2 this version was built to test and iterate the vectorized transactions and in general vectorized nature of the simulator currently oncly contains 1 market and transaction still has a lot of assumed variables and will be updtaed more

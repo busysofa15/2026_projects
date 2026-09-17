@@ -1,0 +1,1 @@
+this script calculates Q_factor aka if fission is feasible or not for an element or isotope and is modeled after liquid drop model hence also has the drawbacks of the liquid drop model of an atom such as not accounting for neutrons getting absorbed etc and the q factor is in mev and this projects goal was to make the code cleaner and more maintainable with the usage of functions
