@@ -1,1 +1,1 @@
-
+the simple vegetation sorter is extremely crude and uses slicing of an image and filtering out the green part of the image to calculate the vegetation cover the latter one uses dask, microsoft planetary computer api in order to retrieve the data and and stack them using stackstac and then slices the array to obtain near infra red reflections from the co ordinates (plants reflect most of near infra red radiation) and then finds out the portion of vegetation cover
