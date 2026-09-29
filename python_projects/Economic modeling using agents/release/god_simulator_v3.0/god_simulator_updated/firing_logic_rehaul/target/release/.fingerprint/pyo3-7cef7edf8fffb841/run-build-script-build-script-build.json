@@ -1,0 +1,1 @@
+{"rustc":12019306335353385202,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[3902110657731208025,"build_script_build",false,1919597680715306181],[4884873376658218508,"build_script_build",false,7045087007764324996]],"local":[{"RerunIfEnvChanged":{"var":"PYO3_BUILD_EXTENSION_MODULE","val":"1"}}],"rustflags":[],"config":0,"compile_kind":0}

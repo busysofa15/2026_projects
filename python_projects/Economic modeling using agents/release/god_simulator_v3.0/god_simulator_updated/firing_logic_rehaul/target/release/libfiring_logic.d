@@ -1,0 +1,1 @@
+/home/busysofa/Documents/lol\ v2/god_simulator_updated/firing_logic_rehaul/target/release/libfiring_logic.so: /home/busysofa/Documents/lol\ v2/god_simulator_updated/firing_logic_rehaul/src/lib.rs

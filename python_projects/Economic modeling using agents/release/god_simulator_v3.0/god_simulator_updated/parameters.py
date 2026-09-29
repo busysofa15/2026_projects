@@ -1,0 +1,24 @@
+import numpy as np
+##for predefined array
+no_of_agents = 10000
+no_of_businesses = no_of_agents
+no_of_tech_businesses = no_of_agents
+starting_alive_agents = 100
+starting_alive_money = 1000
+inventory_storage = 20
+no_of_inventory_buildings_available = 100
+metabolism = 0.5
+secondary_goods_and_services_rot = 0.9
+starting_food = 5
+tax_ratio = 0.3
+seed_capital_ratio = 0.05
+rot_percentage = 0.1
+rot_ratio = (1-rot_percentage)
+tech_investment_ratio = 0.1
+age_step = 1/365
+NUM_DAYS = 36500
+STEP = 1
+unemployed_id = np.int32(no_of_businesses)
+##SENSITIVITY TO INVENTORY_CHANGES
+k = 1.5
+rng = np.random.default_rng()
