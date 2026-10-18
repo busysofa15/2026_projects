@@ -1,0 +1,12 @@
+[package]
+name = "compressible_fluid_sim"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+minifb = "0.28.0"
+ndarray = {version = "0.17.2",features = ['rayon']}
+rayon = "1.12.0"
+[target.x86_64-unknown-linux-gnu]
+linker = "clang"
+rustflags = ["-C", "link-arg=-fuse-ld=mold"]
