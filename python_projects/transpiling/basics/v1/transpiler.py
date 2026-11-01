@@ -70,7 +70,7 @@ class RustTranspiler(ast.NodeVisitor):
 
 def main():
     try:
-        with open("/home/busysofa/Documents/stupid lib/alpha/v1/transpiler prototyping and learning/input.py", "r") as f:
+        with open("input.py", "r") as f:
             tree = ast.parse(f.read())
         
         transpiler = RustTranspiler()
@@ -80,7 +80,7 @@ def main():
                 rust_body += transpiler.visit(node)
         rust_code = f"fn main() {{\n{rust_body}}}\n"
         
-        with open("/home/busysofa/Documents/stupid lib/alpha/v1/transpiler prototyping and learning/src/main.rs", "w") as f:
+        with open("main.rs", "w") as f:
             f.write(rust_code)
             
         print("[+] Success: input.py -> main.rs compiled cleanly.")
